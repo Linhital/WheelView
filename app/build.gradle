@@ -1,20 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        release {
-            keyAlias 'syld'
-            keyPassword 'xiao70'
-            storeFile file('D:/work/workspace/pad-street/doc/key')
-            storePassword 'xiao70'
-        }
-        debug {
-            keyAlias 'syld'
-            keyPassword 'xiao70'
-            storeFile file('D:/work/workspace/pad-street/doc/key')
-            storePassword 'xiao70'
-        }
-    }
+
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.sinelead.syld_phone"
@@ -59,6 +46,6 @@ dependencies {
     implementation 'org.jetbrains:annotations-java5:15.0'
     implementation 'com.android.support:support-v4:28.0.0'
     implementation 'com.squareup.picasso:picasso:2.71828'
-    //    implementation 'com.github.linhital:cycle:1.0.8'
+//    implementation 'com.github.linhital:cycle:1.0.8'
     implementation project(':wheelview')
 }

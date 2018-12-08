@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CycleViewPager">
+        <attr name="indicator_bottom" format="integer" />
+        <attr name="title_color" format="color" />
+        <attr name="title_size" format="dimension" />
+        <attr name="title_bottom" format="integer" />
+        <attr name="cycle" format="boolean" />
+        <attr name="duration" format="integer" />
+        <attr name="indicator_select" format="reference" />
+        <attr name="indicator_unselect" format="reference" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="title_enable" format="boolean" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="place_drawable" format="reference" />
+        <attr name="error_drawable" format="reference" />
+    </declare-styleable>
+</resources>

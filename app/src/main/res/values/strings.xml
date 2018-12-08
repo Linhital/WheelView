@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">智校</string>
+    <string name="user_name">请输入账号</string>
+    <string name="password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="user">账号</string>
+    <string name="pwd">密码</string>
+    <string name="pwd_again">密码确认</string>
+    <string name="forget_password">忘记密码？</string>
+    <string name="resgister">注册</string>
+    <string name="or">or</string>
+    <string name="wechat">微信登录</string>
+    <string name="for_back_password">找回密码</string>
+    <string name="message_login">短信验证登录</string>
+    <string name="cancle">取消</string>
+    <string name="back">返回</string>
+    <string name="phone_login">手机号码登录</string>
+    <string name="phone">手机号码</string>
+    <string name="verification_input">请输入验证码</string>
+    <string name="verification_get">获取验证码</string>
+    <string name="navigation_home">首页</string>
+    <string name="navigation_service">服务</string>
+    <string name="navigation_personal">个人</string>
+    <string-array name="schools">
+        <item>山东科技大学</item>
+        <item>济南大学</item>
+        <item>山东科技大学</item>
+        <item>济南大学</item>
+        <item>山东科技大学</item>
+        <item>济南大学</item>
+        <item>山东科技大学</item>
+        <item>济南大学</item>
+        <item>山东科技大学</item>
+        <item>济南大学</item>
+    </string-array>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+
+    <style name="ActivtyTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="Btn" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorWhite</item>
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TransparentStyleBottom">
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">true</item><!--模糊-->
+    </style>
+
+    <style name="showPopupAnimation" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/translate_out</item>
+        <item name="android:windowEnterAnimation">@anim/translate_in</item>
+    </style>
+
+    <style name="EditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorTextDark</item>
+        <item name="colorControlActivated">@color/colorTextDark</item>
+    </style>
+
+    <declare-styleable name="SquareImageView">
+        <attr name="backcolor" format="color" />
+    </declare-styleable>
+
+</resources>
